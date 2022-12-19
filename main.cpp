@@ -40,21 +40,18 @@ int main() {
 	if (opp == x) {
 		cout << "Draw! Please play again" << "\n";
 		cout << "------------" << endl;
-		main();
 	}
 
 	else if (x == 1 && opp == 3 || x == 2 && opp == 1 || x == 3 && opp == 2) {
 		cout << "You win! Please play again" << "\n";
 		cout << "------------" << endl;
-		main();
 	}
 
 	else if (x == 1 && opp == 2 || x == 2 && opp == 3 || x == 3 && opp == 1) {
 		cout << "You lose! Please play again" << "\n";
 		cout << "------------" << endl;
-		main();
 	}
 
 
-	return 0;
+	return main();
 }
